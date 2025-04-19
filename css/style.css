@@ -1,0 +1,106 @@
+/* css/style.css */
+
+body {
+    background-color: #f4f6f9;
+    font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #333;
+  }
+  
+  h1, h2 {
+    color: #2c3e50;
+  }
+  
+  .card {
+    border-radius: 1rem;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    padding: 0.5rem 1.25rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+  }
+  
+  .img-thumbnail {
+    border-radius: 50%;
+    border: 4px solid #cacccf;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  section {
+    padding: 20px 0;
+  }
+  
+  input.form-control {
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    box-shadow: none;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  input.form-control:focus {
+    box-shadow: 0 0 5px rgba(21, 156, 228, 0.4);
+    border-color: #0d2836;
+  }
+  
+  .list-group-item {
+    background-color: #fdfdfd;
+    border: none;
+    border-bottom: 1px solid #ececec;
+    font-size: 0.95rem;
+  }
+  
+  .list-group-item:last-child {
+    border-bottom: none;
+  }
+  
+  .text-muted {
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  .border.p-3 {
+    border-radius: 1rem;
+    background-color: #ffffff;
+    border: none !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.6rem;
+    }
+  
+    .btn {
+      width: 100%;
+      margin-top: 0.5rem;
+    }
+  
+    .card {
+      padding: 1rem;
+    }
+  
+    form .row > div {
+      margin-bottom: 10px;
+    }
+    .img-thumbnail {
+        width: 100px;
+        height: 100px;
+      }
+}
+  
